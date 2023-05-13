@@ -40,11 +40,11 @@ Clone this repository and run the commands below:
 **Windows:**
 
 ```bat
-packwiz modrinth export
+packwiz curseforge export
 ```
 
 **macOS / Linux:**
 
 ```sh
-./packwiz modrinth export
+./packwiz curseforge export
 ```
