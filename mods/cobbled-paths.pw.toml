@@ -1,0 +1,13 @@
+name = "Cobbled Paths"
+filename = "cobbled_paths-forge-0.1.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2475312954a0e79610040fd56e5691ef20680bbb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3686282
+project-id = 573329

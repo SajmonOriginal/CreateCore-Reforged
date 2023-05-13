@@ -1,0 +1,13 @@
+name = "No Hostiles Around Campfire"
+filename = "nohostilesaroundcampfire-1.18.2-5.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2625008a97c2a3548e25860947a11bbd5a274cdb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4433611
+project-id = 347394

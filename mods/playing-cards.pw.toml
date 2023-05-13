@@ -1,0 +1,13 @@
+name = "Playing Cards"
+filename = "playingcards-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f9338926cf2e405189addd8061c33dd1c0471f80"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3836612
+project-id = 417119

@@ -1,0 +1,13 @@
+name = "Archeology (1.20)"
+filename = "Archaeology-1.18.2-v1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b1b513ac7f8a6c81a987c290204a2afd0df0df49"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4391896
+project-id = 825592

@@ -1,0 +1,8 @@
+{
+	"packmenu.createcore.singleplayer": "Hra pro jednoho hráče",
+	"packmenu.createcore.multiplayer": "Hra pro více hráčů",
+	"packmenu.createcore.options": "Možnosti",
+	"packmenu.createcore.mods": "Modifikace",
+	"packmenu.createcore.wiki": "Wiki",
+	"packmenu.createcore.quit": "Ukončit hru"
+}

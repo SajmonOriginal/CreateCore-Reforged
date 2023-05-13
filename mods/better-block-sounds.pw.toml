@@ -1,0 +1,13 @@
+name = "Better Block Sounds"
+filename = "bbs-1.0.2-1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3a3816d4562c7f2de6ed9def22609237cc7c205f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3819687
+project-id = 630342

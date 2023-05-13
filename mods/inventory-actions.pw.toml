@@ -1,0 +1,13 @@
+name = "Inventory Actions"
+filename = "inventoryactions-1.18.2-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0e4ed0324c87dd46e31e77768917d31ab43cb99e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4028101
+project-id = 676122

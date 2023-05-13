@@ -1,0 +1,13 @@
+name = "Combat Music"
+filename = "combat_music-2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "318e474923661a71f7e4ff62fe029ad250add168"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3645296
+project-id = 508849

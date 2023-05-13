@@ -1,0 +1,13 @@
+name = "Calemi Core"
+filename = "calemicore-1.0.14.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1a5a2e10c1ee0fa8d024c28ecd27a611d8996fd9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3778251
+project-id = 573646

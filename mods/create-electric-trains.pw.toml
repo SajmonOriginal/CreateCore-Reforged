@@ -1,0 +1,13 @@
+name = "Create: Electric Trains"
+filename = "Create_ElectricTrains_V1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3c8f59c328b172fa72453309ed3d2b5bb185294a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4323701
+project-id = 805588

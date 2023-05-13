@@ -1,0 +1,13 @@
+name = "MAtmos 2 sound effect"
+filename = "V3.5+MAtmos+2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "765219232d9e3b65c43a1b0326050203af828fde"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3718158
+project-id = 548114

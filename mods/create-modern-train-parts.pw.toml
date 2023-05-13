@@ -1,0 +1,13 @@
+name = "Create: Modern Train Parts"
+filename = "moderntrainparts-0.12.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9ca6307b150f5ba1ee0ba40f5777d15da5fd73d4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4428921
+project-id = 834415

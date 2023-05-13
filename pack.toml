@@ -1,0 +1,12 @@
+name = "CreateCore Reforged v1.7 FINAL RELEASE"
+version = "v1.7"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "dea864e374e2bc2dd55ddbf9ac1690b5c6e738974876752da9c8fc64c7b6dfac"
+
+[versions]
+forge = "40.2.1"
+minecraft = "1.18.2"
