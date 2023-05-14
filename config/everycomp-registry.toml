@@ -103,8 +103,8 @@
 		yellow_blossom = true
 		red_blossom = true
 
-	[leaves_type.wildbackport]
-		mangrove = true
+	[leaves_type.italian_delight]
+		olive = true
 
 [wood_type]
 
@@ -169,9 +169,9 @@
 		azalea = true
 		blossom = true
 
-	[wood_type.wildbackport]
-		mangrove = true
-
 	[wood_type.valhelsia_structures]
 		lapidified_jungle = true
+
+	[wood_type.italian_delight]
+		olive = true
 

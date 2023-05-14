@@ -1,11 +1,12 @@
-name = "CreateCore Reforged v1.7 FINAL RELEASE"
-version = "v1.7"
+name = "CreateCore Reforged"
+author = "SajmonOriginal"
+version = "v1.7.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "dea864e374e2bc2dd55ddbf9ac1690b5c6e738974876752da9c8fc64c7b6dfac"
+hash = "357e297f04c5ae6e768d633ead0d20f29a4a3fee7654d855692e66b7c962d0ce"
 
 [versions]
 forge = "40.2.1"

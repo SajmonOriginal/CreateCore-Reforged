@@ -1,0 +1,387 @@
+{
+	id: 356,
+	filename: "",
+	order_index: 4,
+	title: "Create",
+	icon: "create:water_wheel",
+	quests: [
+		{
+			title: "Create",
+			x: -1.5d,
+			y: -1.5d,
+			subtitle: "Create mod offers variety of tools and blocks for building, decoration and automation.",
+			id: 357,
+			tasks: [{
+				id: 358,
+				type: "checkmark",
+				title: "Create"
+			}]
+		},
+		{
+			title: "Water Wheels",
+			x: -1.5d,
+			y: -6.5d,
+			subtitle: 'Waterwheel generates "power" using flowing water.',
+			dependencies: [I;361],
+			id: 359,
+			tasks: [{
+				id: 360,
+				type: "item",
+				item: "create:water_wheel"
+			}]
+		},
+		{
+			title: "Basic Resources",
+			x: -1.5d,
+			y: -4.0d,
+			subtitle: "Don't throw away the andesite, you will need it.",
+			dependencies: [I;357],
+			id: 361,
+			tasks: [{
+				id: 362,
+				type: "item",
+				item: "create:andesite_alloy",
+				count: 16
+			}]
+		},
+		{
+			title: "Windmill",
+			x: 0.0d,
+			y: -6.5d,
+			subtitle: "Attach Radial Chassis to the Mechanical Bearing and build the mill around the Chassis. Then give the Mechanical Bearing a redstone signal.",
+			dependencies: [I;361],
+			id: 363,
+			tasks: [
+				{
+					id: 364,
+					type: "item",
+					item: "create:mechanical_bearing"
+				},
+				{
+					id: 365,
+					type: "item",
+					item: "create:radial_chassis"
+				}
+			]
+		},
+		{
+			title: "Transfering power",
+			x: 1.5d,
+			y: -6.5d,
+			subtitle: "Shafts, Gearboxes and Cogwheels lets you transfer the power where it's needed.",
+			dependencies: [I;361],
+			id: 366,
+			tasks: [
+				{
+					id: 367,
+					type: "item",
+					item: "create:gearbox"
+				},
+				{
+					id: 368,
+					type: "item",
+					item: "create:shaft"
+				},
+				{
+					id: 369,
+					type: "item",
+					item: "create:cogwheel"
+				},
+				{
+					id: 370,
+					type: "item",
+					item: "create:large_cogwheel"
+				}
+			]
+		},
+		{
+			title: "Millstone",
+			x: -4.5d,
+			y: -6.5d,
+			subtitle: "Machine used to grind materials",
+			dependencies: [I;361],
+			id: 371,
+			tasks: [{
+				id: 372,
+				type: "item",
+				item: "create:millstone"
+			}]
+		},
+		{
+			title: "Mechanical Belt",
+			x: 1.5d,
+			y: -8.0d,
+			subtitle: "Mechanical Belts are used to connect 2 shafts. Can also move items and entities.",
+			dependencies: [I;366],
+			id: 373,
+			tasks: [{
+				id: 374,
+				type: "item",
+				item: "create:belt_connector"
+			}]
+		},
+		{
+			title: "Pressing Matters",
+			x: 0.0d,
+			y: -8.0d,
+			subtitle: "Mechanical Press is used to compact materials",
+			dependencies: [I;366],
+			id: 375,
+			tasks: [
+				{
+					id: 376,
+					type: "item",
+					item: "create:mechanical_press"
+				},
+				{
+					id: 377,
+					type: "item",
+					item: "create:basin"
+				}
+			]
+		},
+		{
+			title: "Ohh Sheet!",
+			x: 0.0d,
+			y: -10.0d,
+			dependencies: [I;375],
+			id: 378,
+			tasks: [
+				{
+					id: 379,
+					type: "item",
+					item: "create:iron_sheet"
+				},
+				{
+					id: 380,
+					type: "item",
+					item: "create:golden_sheet"
+				},
+				{
+					id: 381,
+					type: "item",
+					item: "create:copper_sheet"
+				},
+				{
+					id: 382,
+					type: "item",
+					item: "create:lapis_sheet"
+				},
+				{
+					id: 383,
+					type: "item",
+					item: "create:brass_sheet"
+				}
+			]
+		},
+		{
+			title: "Polished Rose Quartz",
+			x: -4.5d,
+			y: -4.5d,
+			dependencies: [I;361],
+			id: 384,
+			tasks: [
+				{
+					id: 385,
+					type: "item",
+					item: "create:polished_rose_quartz"
+				},
+				{
+					id: 386,
+					type: "item",
+					item: {
+						id: "create:sand_paper",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 387,
+					type: "item",
+					item: "create:rose_quartz"
+				}
+			]
+		},
+		{
+			title: "Useful Tools",
+			x: -2.0d,
+			y: -10.0d,
+			dependencies: [I;375],
+			id: 388,
+			tasks: [
+				{
+					id: 389,
+					type: "item",
+					item: "create:wrench"
+				},
+				{
+					id: 390,
+					type: "item",
+					item: "create:goggles"
+				}
+			]
+		},
+		{
+			title: "Wakey Wakey",
+			x: 3.5d,
+			y: -6.5d,
+			dependencies: [I;366],
+			id: 391,
+			tasks: [{
+				id: 392,
+				type: "item",
+				item: "create:cuckoo_clock"
+			}]
+		},
+		{
+			title: "Mechanical Mixups",
+			x: 1.5d,
+			y: -10.0d,
+			dependencies: [I;375],
+			id: 393,
+			tasks: [{
+				id: 394,
+				type: "item",
+				item: "create:mechanical_mixer"
+			}]
+		},
+		{
+			title: "Brass",
+			x: 1.5d,
+			y: -11.5d,
+			dependencies: [I;393],
+			id: 395,
+			tasks: [{
+				id: 396,
+				type: "item",
+				item: "create:brass_ingot"
+			}]
+		},
+		{
+			title: "Mechanical Crafter",
+			x: 4.0d,
+			y: -10.5d,
+			subtitle: "For all your crafting needs. Read the tooltip carefully to make them work.",
+			dependencies: [I;395],
+			id: 397,
+			tasks: [{
+				id: 398,
+				type: "item",
+				title: "Mechanical Crafter",
+				item: "create:mechanical_crafter",
+				count: 3
+			}],
+			rewards: [{
+				id: 411,
+				type: "loot",
+				table: 5
+			}]
+		},
+		{
+			title: "Crushing Wheels",
+			x: 6.0d,
+			y: -12.5d,
+			subtitle: "More advanced equivalent of the Millstone.",
+			dependencies: [I;397],
+			id: 399,
+			tasks: [{
+				id: 400,
+				type: "item",
+				item: "create:crushing_wheel",
+				count: 2
+			}]
+		},
+		{
+			title: "Rotation Speed Controller",
+			x: 6.0d,
+			y: -11.0d,
+			dependencies: [I;397],
+			id: 401,
+			tasks: [{
+				id: 402,
+				type: "item",
+				item: "create:rotation_speed_controller"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -9.5d,
+			dependencies: [I;397],
+			id: 403,
+			tasks: [{
+				id: 404,
+				type: "item",
+				item: "create:extendo_grip"
+			}]
+		},
+		{
+			title: "Deployer",
+			x: 1.5d,
+			y: -13.0d,
+			dependencies: [I;395],
+			id: 405,
+			tasks: [{
+				id: 406,
+				type: "item",
+				item: "create:deployer"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -13.5d,
+			dependencies: [I;397],
+			id: 407,
+			tasks: [{
+				id: 408,
+				type: "item",
+				item: "create:nixie_tube"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -8.5d,
+			dependencies: [I;397],
+			id: 409,
+			tasks: [{
+				id: 410,
+				type: "item",
+				item: "create:furnace_engine"
+			}]
+		},
+		{
+			title: "More efficient bread",
+			x: -4.5d,
+			y: -8.5d,
+			dependencies: [I;371],
+			id: 412,
+			tasks: [
+				{
+					id: 413,
+					type: "item",
+					item: "minecraft:bread",
+					count: 6
+				},
+				{
+					id: 414,
+					type: "item",
+					item: "create:dough",
+					count: 6
+				},
+				{
+					id: 415,
+					type: "item",
+					item: "create:wheat_flour",
+					count: 6
+				},
+				{
+					id: 416,
+					type: "item",
+					item: "minecraft:wheat",
+					count: 6
+				}
+			]
+		}
+	]
+}

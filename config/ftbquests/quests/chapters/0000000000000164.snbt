@@ -1,0 +1,397 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: ""
+	id: "0000000000000164"
+	filename: ""
+	default_quest_shape: ""
+	icon: "create:water_wheel"
+	title: "Create"
+	order_index: 4
+	quests: [
+		{
+			tasks: [{
+				id: "0000000000000166"
+				type: "checkmark"
+				title: "Create"
+			}]
+			subtitle: "Create mod offers variety of tools and blocks for building, decoration and automation."
+			id: "0000000000000165"
+			y: -1.5d
+			x: -1.5d
+			title: "Create"
+		}
+		{
+			tasks: [{
+				id: "0000000000000168"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			id: "0000000000000167"
+			x: -1.5d
+			y: -6.5d
+			title: "Water Wheels"
+			subtitle: "Waterwheel generates \"power\" using flowing water."
+			dependencies: ["0000000000000169"]
+		}
+		{
+			tasks: [{
+				id: "000000000000016A"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 16L
+			}]
+			id: "0000000000000169"
+			x: -1.5d
+			y: -4.0d
+			title: "Basic Resources"
+			subtitle: "Don't throw away the andesite, you will need it."
+			dependencies: ["0000000000000165"]
+		}
+		{
+			tasks: [
+				{
+					id: "000000000000016C"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "000000000000016D"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+			]
+			id: "000000000000016B"
+			x: 0.0d
+			y: -6.5d
+			title: "Windmill"
+			subtitle: "Attach Radial Chassis to the Mechanical Bearing and build the mill around the Chassis. Then give the Mechanical Bearing a redstone signal."
+			dependencies: ["0000000000000169"]
+		}
+		{
+			tasks: [
+				{
+					id: "000000000000016F"
+					type: "item"
+					item: "create:gearbox"
+				}
+				{
+					id: "0000000000000170"
+					type: "item"
+					item: "create:shaft"
+				}
+				{
+					id: "0000000000000171"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "0000000000000172"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+			]
+			id: "000000000000016E"
+			x: 1.5d
+			y: -6.5d
+			title: "Transfering power"
+			subtitle: "Shafts, Gearboxes and Cogwheels lets you transfer the power where it's needed."
+			dependencies: ["0000000000000169"]
+		}
+		{
+			tasks: [{
+				id: "0000000000000174"
+				type: "item"
+				item: "create:millstone"
+			}]
+			id: "0000000000000173"
+			x: -4.5d
+			y: -6.5d
+			title: "Millstone"
+			subtitle: "Machine used to grind materials"
+			dependencies: ["0000000000000169"]
+		}
+		{
+			tasks: [{
+				id: "0000000000000176"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			id: "0000000000000175"
+			x: 1.5d
+			y: -8.0d
+			title: "Mechanical Belt"
+			subtitle: "Mechanical Belts are used to connect 2 shafts. Can also move items and entities."
+			dependencies: ["000000000000016E"]
+		}
+		{
+			tasks: [
+				{
+					id: "0000000000000178"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "0000000000000179"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			id: "0000000000000177"
+			x: 0.0d
+			y: -8.0d
+			title: "Pressing Matters"
+			subtitle: "Mechanical Press is used to compact materials"
+			dependencies: ["000000000000016E"]
+		}
+		{
+			tasks: [
+				{
+					id: "000000000000017B"
+					type: "item"
+					item: "create:iron_sheet"
+				}
+				{
+					id: "000000000000017C"
+					type: "item"
+					item: "create:golden_sheet"
+				}
+				{
+					id: "000000000000017D"
+					type: "item"
+					item: "create:copper_sheet"
+				}
+				{
+					id: "000000000000017E"
+					type: "item"
+					item: "create:lapis_sheet"
+				}
+				{
+					id: "000000000000017F"
+					type: "item"
+					item: "create:brass_sheet"
+				}
+			]
+			dependencies: ["0000000000000177"]
+			id: "000000000000017A"
+			y: -10.0d
+			x: 0.0d
+			title: "Ohh Sheet!"
+		}
+		{
+			tasks: [
+				{
+					id: "0000000000000181"
+					type: "item"
+					item: "create:polished_rose_quartz"
+				}
+				{
+					id: "0000000000000182"
+					type: "item"
+					item: {
+						id: "create:sand_paper"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000183"
+					type: "item"
+					item: "create:rose_quartz"
+				}
+			]
+			dependencies: ["0000000000000169"]
+			id: "0000000000000180"
+			y: -4.5d
+			x: -4.5d
+			title: "Polished Rose Quartz"
+		}
+		{
+			tasks: [
+				{
+					id: "0000000000000185"
+					type: "item"
+					item: "create:wrench"
+				}
+				{
+					id: "0000000000000186"
+					type: "item"
+					item: "create:goggles"
+				}
+			]
+			dependencies: ["0000000000000177"]
+			id: "0000000000000184"
+			y: -10.0d
+			x: -2.0d
+			title: "Useful Tools"
+		}
+		{
+			tasks: [{
+				id: "0000000000000188"
+				type: "item"
+				item: "create:cuckoo_clock"
+			}]
+			dependencies: ["000000000000016E"]
+			id: "0000000000000187"
+			y: -6.5d
+			x: 3.5d
+			title: "Wakey Wakey"
+		}
+		{
+			tasks: [{
+				id: "000000000000018A"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			dependencies: ["0000000000000177"]
+			id: "0000000000000189"
+			y: -10.0d
+			x: 1.5d
+			title: "Mechanical Mixups"
+		}
+		{
+			tasks: [{
+				id: "000000000000018C"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+			dependencies: ["0000000000000189"]
+			id: "000000000000018B"
+			y: -11.5d
+			x: 1.5d
+			title: "Brass"
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 3L
+				id: "000000000000018E"
+				item: "create:mechanical_crafter"
+				title: "Mechanical Crafter"
+			}]
+			id: "000000000000018D"
+			x: 4.0d
+			y: -10.5d
+			title: "Mechanical Crafter"
+			rewards: [{
+				id: "000000000000019B"
+				type: "loot"
+				table_id: 5L
+			}]
+			subtitle: "For all your crafting needs. Read the tooltip carefully to make them work."
+			dependencies: ["000000000000018B"]
+		}
+		{
+			tasks: [{
+				id: "0000000000000190"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			id: "000000000000018F"
+			x: 6.0d
+			y: -12.5d
+			title: "Crushing Wheels"
+			subtitle: "More advanced equivalent of the Millstone."
+			dependencies: ["000000000000018D"]
+		}
+		{
+			tasks: [{
+				id: "0000000000000192"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+			dependencies: ["000000000000018D"]
+			id: "0000000000000191"
+			y: -11.0d
+			x: 6.0d
+			title: "Rotation Speed Controller"
+		}
+		{
+			tasks: [{
+				id: "0000000000000194"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["000000000000018D"]
+			id: "0000000000000193"
+			y: -9.5d
+			x: 6.0d
+		}
+		{
+			tasks: [{
+				id: "0000000000000196"
+				type: "item"
+				item: "create:deployer"
+			}]
+			dependencies: ["000000000000018B"]
+			id: "0000000000000195"
+			y: -13.0d
+			x: 1.5d
+			title: "Deployer"
+		}
+		{
+			tasks: [{
+				id: "0000000000000198"
+				type: "item"
+				item: "create:nixie_tube"
+			}]
+			dependencies: ["000000000000018D"]
+			id: "0000000000000197"
+			y: -13.5d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "000000000000019A"
+				type: "item"
+				item: "create:furnace_engine"
+			}]
+			dependencies: ["000000000000018D"]
+			id: "0000000000000199"
+			y: -8.5d
+			x: 4.0d
+		}
+		{
+			tasks: [
+				{
+					id: "000000000000019D"
+					type: "item"
+					item: "minecraft:bread"
+					count: 6L
+				}
+				{
+					id: "000000000000019E"
+					type: "item"
+					item: "create:dough"
+					count: 6L
+				}
+				{
+					id: "000000000000019F"
+					type: "item"
+					item: "create:wheat_flour"
+					count: 6L
+				}
+				{
+					id: "00000000000001A0"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 6L
+				}
+			]
+			dependencies: ["0000000000000173"]
+			id: "000000000000019C"
+			y: -8.5d
+			x: -4.5d
+			title: "More efficient bread"
+		}
+	]
+}

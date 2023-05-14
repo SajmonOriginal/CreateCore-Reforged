@@ -1,0 +1,44 @@
+{
+	rewards: [
+		{ item: "enigmaticlegacy:ocean_stone" }
+		{ item: "enigmaticlegacy:angel_blessing" }
+		{
+			item: {
+				id: "enigmaticlegacy:oblivion_stone"
+				Count: 1
+				tag: {
+					IsActive: 1
+					ConsumptionMode: 1
+				}
+			}
+		}
+		{ item: "angelring:itemring" }
+		{ item: "enigmaticlegacy:magma_heart" }
+		{ item: "enigmaticlegacy:escape_scroll" }
+		{
+			item: {
+				id: "enigmaticlegacy:forbidden_axe"
+				Count: 1
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "enigmaticlegacy:mining_charm"
+				Count: 1
+				tag: { }
+			}
+		}
+		{ item: "enigmaticlegacy:monster_charm" }
+		{ item: "enigmaticlegacy:void_pearl" }
+		{ item: "enigmaticlegacy:heaven_scroll" }
+		{ item: "enigmaticlegacy:golem_heart" }
+		{ item: "enigmaticlegacy:eye_of_nebula" }
+	]
+	loot_size: 1
+	order_index: 0
+	id: "0000000000000022"
+	title: "Gift of the Gods"
+}

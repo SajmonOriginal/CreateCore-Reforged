@@ -1,0 +1,13 @@
+name = "MapFrontiers"
+filename = "MapFrontiers-1.18.2-2.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "07534337aeef168c1f827d36eef2dd1ef72be19a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4245880
+project-id = 366783

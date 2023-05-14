@@ -1,0 +1,49 @@
+{
+	rewards: [
+		{ item: "enigmaticlegacy:ocean_stone" }
+		{
+			item: {
+				id: "enigmaticlegacy:mining_charm"
+				Count: 1
+				tag: { }
+			}
+		}
+		{ item: "enigmaticlegacy:monster_charm" }
+		{ item: "enigmaticlegacy:angel_blessing" }
+		{ item: "enigmaticlegacy:escape_scroll" }
+		{ item: "enigmaticlegacy:unholy_grail" }
+		{
+			item: {
+				id: "enigmaticlegacy:forbidden_axe"
+				Count: 1
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "enigmaticlegacy:oblivion_stone"
+				Count: 1
+				tag: { }
+			}
+		}
+		{ item: "enigmaticlegacy:void_pearl" }
+		{ item: "enigmaticlegacy:golem_heart" }
+		{ item: "enigmaticlegacy:magma_heart" }
+		{ item: "enigmaticlegacy:eye_of_nebula" }
+		{ item: "enigmaticlegacy:heaven_scroll" }
+	]
+	loot_size: 1
+	order_index: 5
+	id: "0000000000000005"
+	loot_crate: {
+		string_id: "reward_table"
+		color: 16777215
+		drops: {
+			passive: 0
+			monster: 0
+			boss: 0
+		}
+	}
+}
