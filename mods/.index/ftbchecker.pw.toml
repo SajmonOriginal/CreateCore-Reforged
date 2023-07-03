@@ -1,0 +1,14 @@
+name = "FTBChecker"
+filename = "ftbchecker-1.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/ocEZ7tc1/versions/G0XXpaGa/ftbchecker-1.1.jar"
+hash-format = "sha512"
+hash = "b0d90b8d4b8733f6566f49ae1d8886f66d4aeb3440e19c61311de52666cc8b5366451ffd1411a021c13616f57aae2d77e2bdfc773064e9d94495e0718811cac2"
+
+[update]
+[update.modrinth]
+mod-id = "ocEZ7tc1"
+version = "G0XXpaGa"

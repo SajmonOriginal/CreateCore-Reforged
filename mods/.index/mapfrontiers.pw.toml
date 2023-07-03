@@ -1,0 +1,14 @@
+name = "MapFrontiers"
+filename = "MapFrontiers-1.18.2-2.5.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/hWlsli6y/versions/k3a5AxDo/MapFrontiers-1.18.2-2.5.0.jar"
+hash-format = "sha512"
+hash = "e7f9d0af08476f19e9e5305db3effd9caf9dff556f4dc843ac9c94d780c2d6d6c4c1ac71fee230faff1d77b5d2468a59f63f5300ba789f9c83e235c0ecf4507f"
+
+[update]
+[update.modrinth]
+mod-id = "hWlsli6y"
+version = "k3a5AxDo"

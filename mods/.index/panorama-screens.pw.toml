@@ -1,0 +1,14 @@
+name = "Panorama Screens"
+filename = "panorama_screens-1.0+forge+mc1.18.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/4k0QM1rC/versions/KVA7loSV/panorama_screens-1.0%2Bforge%2Bmc1.18.2.jar"
+hash-format = "sha512"
+hash = "e93235610bde031f01bc93d5492b4e3890d6839d606cba88d128eb5bdcceff2c877369a9c9d1cdf6cd9a3e3ce19a812bef45296ef386505007282961bfb51312"
+
+[update]
+[update.modrinth]
+mod-id = "4k0QM1rC"
+version = "KVA7loSV"

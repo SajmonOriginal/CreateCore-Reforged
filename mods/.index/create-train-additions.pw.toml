@@ -1,0 +1,14 @@
+name = "Create Train Additions"
+filename = "Create Train Additions 0.3.0-1.18.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/d6izTMSS/versions/1ng1ytOZ/Create Train Additions 0.3.0-1.18.2.jar"
+hash-format = "sha512"
+hash = "69a8640065e9a7232df5b7a3706d2233a28576b41e9c7035bd2638b78f281aeb9596d13d1d7739e727a267fc4bdee25dfa56b58a212af7335618fe1eb6dbfcc7"
+
+[update]
+[update.modrinth]
+mod-id = "d6izTMSS"
+version = "1ng1ytOZ"

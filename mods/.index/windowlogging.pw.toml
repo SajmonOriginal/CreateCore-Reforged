@@ -1,0 +1,14 @@
+name = "Windowlogging"
+filename = "windowlogging-mc1.18.2_v0.0.9.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/C6AFOWnr/versions/0.0.9/windowlogging-mc1.18.2_v0.0.9.jar"
+hash-format = "sha512"
+hash = "0fee6d6468fbf4646615d6893b9f8deb7db92504c14f9aa4139b98ba2828fcac09423cc439cae227c887154e312ef1fbcaed4d81ba7d40d228e320acda29beac"
+
+[update]
+[update.modrinth]
+mod-id = "C6AFOWnr"
+version = "owWx6PeB"

@@ -1,0 +1,14 @@
+name = "Ore Tweaker"
+filename = "OreTweaker-1.18.2-3.4.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/MEbCLGFC/versions/aGHTFJKd/OreTweaker-1.18.2-3.4.0.jar"
+hash-format = "sha512"
+hash = "ad33d52cabf619adcf48b77d805022b906e9e4b4719d0c4918ee01371867fbd4cd05e8a75a45743fce61164b0e094a354c0f96ea9fd825dcc59a995b51f0bdae"
+
+[update]
+[update.modrinth]
+mod-id = "MEbCLGFC"
+version = "aGHTFJKd"

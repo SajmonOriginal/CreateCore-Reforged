@@ -1,0 +1,14 @@
+name = "REI Plugin Compatibilities"
+filename = "REIPluginCompatibilities-forge-8.0.46.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/1PfY6b5p/versions/lHuQQvms/REIPluginCompatibilities-forge-8.0.46.jar"
+hash-format = "sha512"
+hash = "456da7ee7ad2ceff8118d9f913eb1e8bde388e0ee97735131f75bad0998f6a3dca489fca02d50f9568c90eaf141223b7588c2583320a2eb7b2c6490aeada92e3"
+
+[update]
+[update.modrinth]
+mod-id = "1PfY6b5p"
+version = "lHuQQvms"

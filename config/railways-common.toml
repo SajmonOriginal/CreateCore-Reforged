@@ -11,6 +11,8 @@
 	mustOwnBoundTrain = false
 	#Coupler will require points to be on the same or adjacent track edge, this will prevent the coupler from working if there is any form of junction in between the two points.
 	strictCoupler = false
+	#Register integration tracks for mods that are not present
+	registerMissingTracks = false
 
 #Semaphore settings
 [semaphore]

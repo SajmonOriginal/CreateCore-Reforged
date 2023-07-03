@@ -1,0 +1,14 @@
+name = "Infernal Expansion"
+filename = "infernal-expansion-1.18.2-2.5.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/ZrpxHZN4/versions/1.18-2.5.0/infernal-expansion-1.18.2-2.5.0.jar"
+hash-format = "sha512"
+hash = "ef8ea6814cd7415cd9b04e93803c5ad3b59dc215dd61181c491e71b0f26c8b0c03e92180306e64313dc34291c234d5e1022b56f3b7c4127190058dc226f3d4b2"
+
+[update]
+[update.modrinth]
+mod-id = "ZrpxHZN4"
+version = "Kq7sXE8r"

@@ -1,0 +1,14 @@
+name = "SuperMartijn642's Core Lib"
+filename = "supermartijn642corelib-1.1.10-forge-mc1.18.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/rOUBggPv/versions/DWVDdhp4/supermartijn642corelib-1.1.10-forge-mc1.18.jar"
+hash-format = "sha512"
+hash = "832c71130d5fcad1710b5f1f2b42711969a23b6164d3e0d56a56405d523c104af8880db9156737052fa3c45f8811d10ca603246c01f08c344fe94a1a4b884031"
+
+[update]
+[update.modrinth]
+mod-id = "rOUBggPv"
+version = "DWVDdhp4"

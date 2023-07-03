@@ -1,0 +1,14 @@
+name = "Simply Swords"
+filename = "simplyswords-forge-1.40-1.18.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/bK3Ubu9p/versions/49zrERp3/simplyswords-forge-1.40-1.18.2.jar"
+hash-format = "sha512"
+hash = "d18a287d025038b81dff0b08e663b1b0dc3d3e03a65cd78b711f19088c8660bd6f6250eb3a13bb022cbfaeeb7bcadacf175d5a0fb6aedac164eee59061872f6b"
+
+[update]
+[update.modrinth]
+mod-id = "bK3Ubu9p"
+version = "49zrERp3"

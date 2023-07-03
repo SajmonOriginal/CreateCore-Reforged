@@ -1,0 +1,14 @@
+name = "Better Combat"
+filename = "bettercombat-forge-1.6.2+1.18.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/5sy6g3kz/versions/SsDWF33Q/bettercombat-forge-1.6.2%2B1.18.2.jar"
+hash-format = "sha512"
+hash = "d9423dc0219de51426bb124890b30352fdd6465deac0b10c1e60e19c4f7f591ea4f7a912b7c76e52d46a895926ba46b3c580bdf695de6c799823218a733dc064"
+
+[update]
+[update.modrinth]
+mod-id = "5sy6g3kz"
+version = "SsDWF33Q"

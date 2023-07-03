@@ -1,0 +1,14 @@
+name = "YUNG's Better Nether Fortresses"
+filename = "YungsBetterNetherFortresses-1.18.2-Forge-1.0.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/Z2mXHnxP/versions/XzRYWtHN/YungsBetterNetherFortresses-1.18.2-Forge-1.0.0.jar"
+hash-format = "sha512"
+hash = "80049d4abef26b876fefd2f5a2d7395e3a2c146b1d09b5509ff38b070b9543d0c7c99bec849cfe9bb789219cf545dbc263c5767679223666fe859fca5e445a63"
+
+[update]
+[update.modrinth]
+mod-id = "Z2mXHnxP"
+version = "XzRYWtHN"

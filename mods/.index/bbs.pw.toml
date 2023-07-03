@@ -1,0 +1,14 @@
+name = "Better Block Sounds"
+filename = "bbs-1.0.2-1.18.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/BSD4Ohjo/versions/1.0.2/bbs-1.0.2-1.18.2.jar"
+hash-format = "sha512"
+hash = "84b82bcef3b81b2e1c36ea2abd1dc52be41a396aa09f2fedaeaf1889796b95bbe403a384f21309e9084f14ad9ea8ff618de3cfd6cf725507049e9fdc0f975e90"
+
+[update]
+[update.modrinth]
+mod-id = "BSD4Ohjo"
+version = "80Ttdd1q"

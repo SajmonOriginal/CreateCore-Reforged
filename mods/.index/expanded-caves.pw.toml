@@ -1,0 +1,14 @@
+name = "Expanded Caves"
+filename = "expcaves-4.0.1-alpha-all.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/RTR0Bmta/versions/4.0.1/expcaves-4.0.1-alpha-all.jar"
+hash-format = "sha512"
+hash = "c9fc4c8a016f7247fba0141172ec12a9256f910faeeb6c2113127c6ffad7dd5010c87b65e7fe477ee6b52185ab7b579395e5173be8b70073dfa451ebe277fbb2"
+
+[update]
+[update.modrinth]
+mod-id = "RTR0Bmta"
+version = "x8018aOg"

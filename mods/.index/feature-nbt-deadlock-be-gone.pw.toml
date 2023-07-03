@@ -1,0 +1,14 @@
+name = "Feature NBT Deadlock Be Gone"
+filename = "feature_nbt_deadlock_be_gone_forge-2.0.0+1.18.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/HMNV4z01/versions/2.0.0%2B1.18.2_forge/feature_nbt_deadlock_be_gone_forge-2.0.0%2B1.18.2.jar"
+hash-format = "sha512"
+hash = "2c9a68cdf1a2bde545a94a9552ac2411f44f54b1600f20282fad1cf3a377b969625e58c40f57bfd5b2c19c64dacd990e62163b3ddfad10ca03b0400b57e4f165"
+
+[update]
+[update.modrinth]
+mod-id = "HMNV4z01"
+version = "J0MaAT8x"

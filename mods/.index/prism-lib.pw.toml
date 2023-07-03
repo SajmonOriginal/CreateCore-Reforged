@@ -1,0 +1,14 @@
+name = "Prism"
+filename = "Prism-1.18.2-1.0.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/1OE8wbN0/versions/MTjTc9TO/Prism-1.18.2-1.0.1.jar"
+hash-format = "sha512"
+hash = "96fa514cc2e7606b66b728000a4d6b175e029b046c30f50613934fd0ac4120414e926a7e972081daa511e6543c97d255a8edd297bfb19f65d7b9fa8b8ad54a18"
+
+[update]
+[update.modrinth]
+mod-id = "1OE8wbN0"
+version = "MTjTc9TO"

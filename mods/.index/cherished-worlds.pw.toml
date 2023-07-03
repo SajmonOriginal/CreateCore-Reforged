@@ -1,0 +1,14 @@
+name = "Cherished Worlds"
+filename = "cherishedworlds-forge-1.18-5.1.1.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/3azQ6p0W/versions/fZvCWiOi/cherishedworlds-forge-1.18-5.1.1.0.jar"
+hash-format = "sha512"
+hash = "d6a50fc71fb299c890eb08a5efb1240c327ec4d94c6244770f5be135c3f1ca2b4e1b5c733b3391f4bedc8c7c9be7587ffddd4a1b94ccb5b2d2d314b780bc4eaa"
+
+[update]
+[update.modrinth]
+mod-id = "3azQ6p0W"
+version = "fZvCWiOi"

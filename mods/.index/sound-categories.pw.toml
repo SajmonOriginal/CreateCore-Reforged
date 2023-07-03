@@ -1,0 +1,14 @@
+name = "Sound Categories"
+filename = "soundcategories-1.2.4+1.18.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/GROGt4v1/versions/1.2.4%2B1.18/soundcategories-1.2.4%2B1.18.jar"
+hash-format = "sha512"
+hash = "2b44877aa0d3d18a28c50abc386571a417e8fe21f2b9a3f6726be034e82f51d2dfd5bcc7cd544e1b6b2fd16ea34384dbb362adb8aa2b4e11a55ed3b21b57b517"
+
+[update]
+[update.modrinth]
+mod-id = "GROGt4v1"
+version = "3KpA2Def"

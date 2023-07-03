@@ -1,0 +1,14 @@
+name = "This Rocks! (Forge)"
+filename = "ThisRocks-1.18.2-1.0.4.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/nsHXyrFh/versions/OrHySTkw/ThisRocks-1.18.2-1.0.4.jar"
+hash-format = "sha512"
+hash = "84522970ec64378a00da99db4dc2306e05c400065a06cf0dd0ed56a119dff06a5a0bce79c4d60dbe95cf17fed91eca58a93ac5981c1a85f5faf8eb5bdb495c01"
+
+[update]
+[update.modrinth]
+mod-id = "nsHXyrFh"
+version = "OrHySTkw"

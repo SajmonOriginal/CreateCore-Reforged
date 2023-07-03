@@ -1,0 +1,14 @@
+name = "Ding"
+filename = "Ding-1.18.2-Forge-1.4.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/UEtTD3gP/versions/F5k8hWRP/Ding-1.18.2-Forge-1.4.1.jar"
+hash-format = "sha512"
+hash = "b2a461e3d602c5fd03bafe304956f78997c41a5d8b8828ace6f20e39c7efc860aff8e51bc8980983c11850067041541d738201c2479226f7f9aefe91d036c015"
+
+[update]
+[update.modrinth]
+mod-id = "UEtTD3gP"
+version = "F5k8hWRP"

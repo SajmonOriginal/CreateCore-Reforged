@@ -1,0 +1,14 @@
+name = "Drip Sounds (Forge)"
+filename = "DripSounds-1.18-0.3.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/XOhqdyTf/versions/1.18-0.3.0/DripSounds-1.18-0.3.0.jar"
+hash-format = "sha512"
+hash = "96dc7306925915b3e180d755b7b8393b8505077d9ebb24f55843b9a4cc44cb36d07aea678c598c3cfddb1425cb4cde617d69668e0bb6bd752c6121fb3532fb3e"
+
+[update]
+[update.modrinth]
+mod-id = "XOhqdyTf"
+version = "U6cFBqKR"

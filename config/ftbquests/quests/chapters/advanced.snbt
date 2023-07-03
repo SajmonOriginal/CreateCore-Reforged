@@ -1,0 +1,496 @@
+{
+	id: "76DBFA5747B47891"
+	group: "0FA952FB21E9D48F"
+	order_index: 1
+	filename: "advanced"
+	title: "Advanced Creations"
+	icon: "create:mechanical_arm"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -3.0d
+			subtitle: "Mix Copper and Zinc while heated"
+			id: "294BEB6385393CEC"
+			tasks: [{
+				id: "02AD3088BB537CCC"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+			rewards: [
+				{
+					id: "3058FC4E3D0EA6A4"
+					type: "item"
+					item: "create:zinc_ingot"
+				}
+				{
+					id: "7CC726D62339B5DA"
+					type: "item"
+					item: "minecraft:copper_ingot"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			subtitle: "Used for crafting a variety of machines"
+			dependencies: ["294BEB6385393CEC"]
+			id: "11E08BFAAEF01D26"
+			tasks: [{
+				id: "7A3A4BFF0E21B5B4"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Used for crafting a large amount of items. Place the crafters in the shape shown in the recipe and ensure all arrows converge into one block"
+			dependencies: ["11E08BFAAEF01D26"]
+			id: "690BAE5199D94B8E"
+			tasks: [{
+				id: "2684C996D6AAF649"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [
+				{
+					id: "413FF2AE6437A864"
+					type: "item"
+					item: "create:mechanical_crafter"
+					count: 3
+				}
+				{
+					id: "6B6A8775907B6D20"
+					type: "xp"
+					xp: 30
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			subtitle: "Wash the crushed ore for an even greater yield"
+			dependencies: ["690BAE5199D94B8E"]
+			id: "76651E7D057FF4D1"
+			tasks: [{
+				id: "1FBD4C0037F0BBAD"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+			rewards: [
+				{
+					id: "1532971FB5F890F0"
+					type: "item"
+					item: "create:smart_chute"
+				}
+				{
+					id: "5CDD9146C980DF98"
+					type: "item"
+					item: "minecraft:iron_ore"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "Used in combination with the Furnace Engine to generate rotational energy from smelting "
+			dependencies: ["690BAE5199D94B8E"]
+			id: "600801C3C89AB324"
+			tasks: [{
+				id: "14B72A3373C2E39D"
+				type: "item"
+				item: "create:flywheel"
+			}]
+			rewards: [
+				{
+					id: "6CA2F671946AFD19"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 6
+				}
+				{
+					id: "4CDF182FC7B58720"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			subtitle: "Used to control the speed of rotation"
+			dependencies: ["6216E09804C70482"]
+			id: "37180AEEEAEC5CBB"
+			tasks: [{
+				id: "7D5D42732642D0E8"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+			rewards: [
+				{
+					id: "1876753FE1481ADE"
+					type: "item"
+					item: "create:vertical_gearbox"
+				}
+				{
+					id: "0D8496F3F6B588A9"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+				{
+					id: "63D233DF0F67F3C0"
+					type: "xp"
+					xp: 30
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			subtitle: "Transfers items between moving contraptions and still containers"
+			dependencies: ["11E08BFAAEF01D26"]
+			id: "14DFE05227C38D54"
+			tasks: [{
+				id: "05C2F0EBA4A9D6C5"
+				type: "item"
+				item: "create:portable_storage_interface"
+			}]
+			rewards: [
+				{
+					id: "1732910FD198B559"
+					type: "item"
+					item: "minecraft:chest"
+					count: 4
+				}
+				{
+					id: "323306A5471DCB42"
+					type: "item"
+					item: "create:andesite_funnel"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			subtitle: "Can sand over 1000 items!"
+			dependencies: ["76651E7D057FF4D1"]
+			id: "61B09B9476A5EC82"
+			tasks: [{
+				id: "128784D4F453624B"
+				type: "item"
+				item: {
+					id: "createaddition:diamond_grit_sandpaper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0E9BC1A3A565D436"
+				type: "item"
+				item: "create:rose_quartz"
+				count: 8
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			subtitle: "Extendos your grip"
+			dependencies: ["6216E09804C70482"]
+			id: "4DDBB83B32A2D26A"
+			tasks: [{
+				id: "7791A3D56D5D17D6"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "09D36D57B1CF9B73"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "536FF1114B2B4AA4"
+					type: "item"
+					item: {
+						id: "tconstruct:broad_axe"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.3f
+								"tconstruct:attack_damage": 1.65f
+								"tconstruct:durability": 4.25f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 0.6f
+								"tconstruct:mining_speed": 1.8000001f
+								"tconstruct:attack_damage": 11.55f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:durability": 1168.75f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:magnetic"
+									level: 4s
+								}
+								{
+									name: "tconstruct:stripping"
+									level: 1s
+								}
+								{
+									name: "tconstruct:axe_scrape"
+									level: 1s
+								}
+								{
+									name: "tconstruct:axe_wax_off"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			subtitle: "Crafting ingredient for deployers and extendo grips"
+			dependencies: ["294BEB6385393CEC"]
+			id: "3EA438FDB3B0279C"
+			tasks: [{
+				id: "4A09C92FF82F0B9E"
+				type: "item"
+				item: "create:brass_hand"
+			}]
+			rewards: [{
+				id: "1F80535FB86A8202"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 8
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			subtitle: "Used for Sequence Crafting when placed in a row"
+			dependencies: ["3EA438FDB3B0279C"]
+			id: "7AC70EBDA8C8EF5A"
+			tasks: [{
+				id: "24A37CFDE9FD3950"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [
+				{
+					id: "5C915CB94C20F89B"
+					type: "item"
+					item: "create:electron_tube"
+				}
+				{
+					id: "221C428A85000495"
+					type: "xp"
+					xp: 30
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			subtitle: "Extracts and imports items at a quicker rate"
+			dependencies: ["294BEB6385393CEC"]
+			id: "55ADD53C6761208B"
+			tasks: [{
+				id: "454F69DA2DDA357B"
+				type: "item"
+				item: "create:brass_funnel"
+			}]
+			rewards: [
+				{
+					id: "2D7BBC71979ACE53"
+					type: "item"
+					item: "create:shaft"
+					count: 2
+				}
+				{
+					id: "7ED3B5329453DCA3"
+					type: "item"
+					item: "create:belt_connector"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			subtitle: "Filters inputs and outputs by using tags"
+			dependencies: ["294BEB6385393CEC"]
+			id: "0BCC39CAC1339C44"
+			tasks: [{
+				id: "77883EB02618E9FB"
+				type: "item"
+				item: {
+					id: "create:attribute_filter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3D3442E914EC4F73"
+				type: "item"
+				item: "minecraft:emerald_ore"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Used to smartly transfer items around "
+			dependencies: ["6216E09804C70482"]
+			id: "3D9499CAFDF87DD7"
+			tasks: [{
+				id: "4A0A8AACF3A9131C"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [
+				{
+					id: "1D566628578BF4AD"
+					type: "item"
+					item: "create:depot"
+					count: 2
+				}
+				{
+					id: "64EE01B7426FF743"
+					type: "xp"
+					xp: 30
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			subtitle: "Can be used to create a working clock"
+			dependencies: ["11E08BFAAEF01D26"]
+			id: "20B68CDEA8D7FBB0"
+			tasks: [{
+				id: "0F25E8C1C410F773"
+				type: "item"
+				item: "create:clockwork_bearing"
+			}]
+			rewards: [
+				{
+					id: "5DC1399A8F9685CC"
+					type: "item"
+					item: "minecraft:magenta_glazed_terracotta"
+					count: 9
+				}
+				{
+					id: "5E0B090A8E5F77E3"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			subtitle: "Created using Sequence Crafting"
+			dependencies: ["7AC70EBDA8C8EF5A"]
+			id: "6216E09804C70482"
+			tasks: [{
+				id: "66591D6148E9322E"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [
+				{
+					id: "0FD5E15BB3AA0754"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 4
+				}
+				{
+					id: "04D963CC3AEB43A9"
+					type: "xp"
+					xp: 30
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Shoots potatos and other items with some force"
+			dependencies: ["6216E09804C70482"]
+			id: "01FEF7257E3F4D80"
+			tasks: [{
+				id: "10827FA718B8F0D3"
+				type: "item"
+				item: {
+					id: "create:potato_cannon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6BF15BBF8C2B1AC1"
+					type: "item"
+					item: "minecraft:potato"
+					count: 32
+				}
+				{
+					id: "5EA54BD7EBE09617"
+					type: "xp"
+					xp: 30
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			subtitle: "Place the Peculiar Bell above a Soul Fire"
+			dependencies: ["294BEB6385393CEC"]
+			id: "4A6849F27246DF41"
+			tasks: [
+				{
+					id: "59ADA1611FFF0135"
+					type: "item"
+					item: "create:peculiar_bell"
+				}
+				{
+					id: "0205655C3FFEE686"
+					type: "item"
+					item: "create:haunted_bell"
+				}
+			]
+			rewards: [{
+				id: "47DB435CB2BCF37A"
+				type: "xp"
+				xp: 50
+			}]
+		}
+	]
+	quest_links: [ ]
+}

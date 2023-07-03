@@ -1,0 +1,14 @@
+name = "WorldEdit Items"
+filename = "WorldEditItems-v1.1.0-Forge-1.18.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/xBMX8ICO/versions/v1.1.0-Forge-1.18.2/WorldEditItems-v1.1.0-Forge-1.18.2.jar"
+hash-format = "sha512"
+hash = "8a30a32dadb68a75910edcad034785e1c951735914297e93365636b0286cab4d1045bf60e9c5fe3417e4b3c22aed48fa635bef4e2825992575b86b8af92aba54"
+
+[update]
+[update.modrinth]
+mod-id = "xBMX8ICO"
+version = "YkLSjYJp"

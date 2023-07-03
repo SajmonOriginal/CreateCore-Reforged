@@ -1,0 +1,14 @@
+name = "Cobbled Paths"
+filename = "cobbled_paths-forge-0.1.7.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/Si1Oa29R/versions/0.1.7-forge/cobbled_paths-forge-0.1.7.jar"
+hash-format = "sha512"
+hash = "25139222b6a3eb562a5806c81d2a08d3d6eadf650af0fa40741639107c1d04d1f32f31ea57ddb0eb9721a8072ecc6512a529c33b8c8daf3054bd937d253a4ced"
+
+[update]
+[update.modrinth]
+mod-id = "Si1Oa29R"
+version = "Y1Rjj1L9"

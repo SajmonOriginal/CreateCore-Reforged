@@ -1,0 +1,14 @@
+name = "Create: Crystal Clear"
+filename = "create_crystal_clear-0.2.1-1.18.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/h7QgiH72/versions/hQzfx7zR/create_crystal_clear-0.2.1-1.18.2.jar"
+hash-format = "sha512"
+hash = "5ee71722ffee210d8072a4d5563420c5ba8829900a57e937f72d3eba37068787100e3459901b9b2231022626e7e95d16b201861686e7e4a44ffd6a278ee9eeda"
+
+[update]
+[update.modrinth]
+mod-id = "h7QgiH72"
+version = "hQzfx7zR"

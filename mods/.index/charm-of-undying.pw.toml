@@ -1,0 +1,14 @@
+name = "Charm of Undying"
+filename = "curioofundying-forge-1.18-5.3.0.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/b5GyyYkp/versions/4k73T86X/curioofundying-forge-1.18-5.3.0.0.jar"
+hash-format = "sha512"
+hash = "7f9c216094d4aeb4259a2dbc6bcb3fb9cede618730b2134500409d489aa28b0c9497ef0ab2dcd5eb6be7edbf3001c938c03aca29b3494c901fc699c0ac4e80ec"
+
+[update]
+[update.modrinth]
+mod-id = "b5GyyYkp"
+version = "4k73T86X"

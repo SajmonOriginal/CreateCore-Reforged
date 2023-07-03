@@ -1,12 +1,12 @@
-name = "CreateCore Reforged v1.7 FINAL RELEASE"
-version = "v1.7"
+name = "CreateCore Reforged"
+version = "1.7.4-Modrinth"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "dea864e374e2bc2dd55ddbf9ac1690b5c6e738974876752da9c8fc64c7b6dfac"
+hash = "5bc521740be12e3f41bfb576ea14774467d2909b6ec6ece46cd1b70fb3ee7aba"
 
 [versions]
-forge = "40.2.1"
+forge = "40.2.9"
 minecraft = "1.18.2"

@@ -1,0 +1,14 @@
+name = "Jade Addons (Forge)"
+filename = "JadeAddons-1.18.2-forge-2.5.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/xuDOzCLy/versions/8UAWp9ng/JadeAddons-1.18.2-forge-2.5.0.jar"
+hash-format = "sha512"
+hash = "24bae5ecf8fad62170ab3ec7903905fa6affecb312ddedcc8d9d0623b51f875861c5d6727e1976603f87cd3ed700685f5b61319a2fce4cd754b45a8975662e01"
+
+[update]
+[update.modrinth]
+mod-id = "xuDOzCLy"
+version = "8UAWp9ng"

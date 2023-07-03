@@ -1,0 +1,14 @@
+name = "Quest Plaques"
+filename = "QuestPlaques-1.18.2-1.0.3.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/gQP5iy8B/versions/XKgGXdml/QuestPlaques-1.18.2-1.0.3.jar"
+hash-format = "sha512"
+hash = "fb841d0a8c76215a1df285bb6a6d90194dab27138eea94497b4704491b2d075f795e78d44af129f8d8de696cc7c6214c8c247b1284bba4529c47bcc8cf175020"
+
+[update]
+[update.modrinth]
+mod-id = "gQP5iy8B"
+version = "XKgGXdml"

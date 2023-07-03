@@ -1,0 +1,14 @@
+name = "3D Skin Layers"
+filename = "3dskinlayers-forge-1.5.2-mc1.18.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/zV5r3pPn/versions/bvBPpRE4/3dskinlayers-forge-1.5.2-mc1.18.2.jar"
+hash-format = "sha512"
+hash = "ca2344ae08e9a2834965ad8fbde44b49f6bdecc4ad464ec8c49858daa2232594c85f54cf83436af627269b8c8b9869b1f9f72805be9977f76e3fbbced638d7af"
+
+[update]
+[update.modrinth]
+mod-id = "zV5r3pPn"
+version = "bvBPpRE4"

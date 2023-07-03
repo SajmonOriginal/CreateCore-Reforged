@@ -4,6 +4,6 @@
   "breaking_chorus_summon_endermite_percentage": 5,
   "enderblob_replacing_endermite_probability_on_spawn": 10,
   "ender_infection_probability_when_hit_by_endermite_enderblob": 5,
-  "can_use_teleportation_anchor": true,
+  "can_use_teleportation_anchor": false,
   "adventureapparatus_compatibiliy": false
 }

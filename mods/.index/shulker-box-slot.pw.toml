@@ -1,0 +1,14 @@
+name = "Shulker Box Slot"
+filename = "curiousshulkerboxes-forge-1.18.1-4.2.0.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/R5T1RmWr/versions/kw1f9gCn/curiousshulkerboxes-forge-1.18.1-4.2.0.0.jar"
+hash-format = "sha512"
+hash = "b8e154ac8a866431290f748dcb4aef686eacc59afd2f026d4c3421c50023771c29262d28c45b194dea879867988591226b7504086142d6eab7047fe5e5c2627f"
+
+[update]
+[update.modrinth]
+mod-id = "R5T1RmWr"
+version = "kw1f9gCn"

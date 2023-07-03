@@ -1,0 +1,14 @@
+name = "Oh The Biomes You'll Go"
+filename = "Oh_The_Biomes_You'll_Go-forge-1.18.2-1.4.7.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/uE1WpIAk/versions/EU5OONA2/Oh_The_Biomes_You%27ll_Go-forge-1.18.2-1.4.7.jar"
+hash-format = "sha512"
+hash = "6c6f059b7a3c05b162a5bd599ff8baedda5b457c92daf7c9e7542b53d906f0c24d8742fbd125b1fc15677c6c9bff03a95d24c36edc1b081e8d96a27b55932960"
+
+[update]
+[update.modrinth]
+mod-id = "uE1WpIAk"
+version = "EU5OONA2"
