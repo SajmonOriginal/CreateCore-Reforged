@@ -1,0 +1,453 @@
+{
+	id: "0CE9FD9BC0D74AF0"
+	group: ""
+	order_index: 0
+	filename: "storage"
+	title: "Storage"
+	icon: "everycomp:q/italian_delight/olive_chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 7.5d
+			y: 0.5d
+			subtitle: "Core block of a Storage Network, all RS devices must connect to the Controlller"
+			id: "69FE6DB3E8F34236"
+			tasks: [{
+				id: "3272A54F72D44418"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+			rewards: [{
+				id: "4F6E4004C5394FAE"
+				type: "item"
+				item: "createaddition:connector"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.5d
+			subtitle: "Smallest storage part, storage parts can be turned into a Storage Block or Drive"
+			id: "16BA6BCFE346E18B"
+			tasks: [{
+				id: "48A2C6CFD543C7B7"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+			rewards: [{
+				id: "7055F351903B105D"
+				type: "item"
+				item: "minecraft:iron_block"
+				count: 3
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			subtitle: "Can store 4,000 items!"
+			dependencies: ["16BA6BCFE346E18B"]
+			id: "6C98FD87B0C819DC"
+			tasks: [{
+				id: "4556FC2A0C509C54"
+				type: "item"
+				item: "refinedstorage:4k_storage_part"
+			}]
+			rewards: [{
+				id: "59D163B6EBD72D13"
+				type: "item"
+				item: "minecraft:gold_ore"
+				count: 32
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			subtitle: "Stores 4 times as many items compared to a 4k drive"
+			dependencies: ["6C98FD87B0C819DC"]
+			id: "3B01B64AB6594EDA"
+			tasks: [{
+				id: "75DD0DD02ED41EE0"
+				type: "item"
+				item: "refinedstorage:16k_storage_part"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.5d
+			subtitle: "Stores 1,000 stacks of items"
+			dependencies: ["3B01B64AB6594EDA"]
+			id: "3D5BCD92C80C13FA"
+			tasks: [{
+				id: "7D56C066711D7916"
+				type: "item"
+				item: "refinedstorage:64k_storage_part"
+			}]
+			rewards: [{
+				id: "48C9B4193FD7A036"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			subtitle: "Allows access to a Storage Network"
+			dependencies: ["7B127BB3F0DEF17E"]
+			id: "02BE40CF22722C7B"
+			tasks: [{
+				id: "30F0A50445BBB556"
+				type: "item"
+				item: "refinedstorage:grid"
+			}]
+			rewards: [{
+				id: "69988E82251720C1"
+				type: "item"
+				item: "create:electron_tube"
+				count: 3
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			subtitle: "Holds up to 8 drives"
+			dependencies: ["7B127BB3F0DEF17E"]
+			id: "1EC082B2CA8745B6"
+			tasks: [{
+				id: "7226AA8AB52D3F39"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+			rewards: [{
+				id: "014FB802FBE69A8E"
+				type: "item"
+				item: "minecraft:redstone_block"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			subtitle: "Used to connect devices to the Controller"
+			id: "6B6452908E5BD4AC"
+			tasks: [{
+				id: "762C8AC2BB3B30EF"
+				type: "item"
+				item: "refinedstorage:cable"
+			}]
+			rewards: [{
+				id: "7C1CA7A7C46AAC3B"
+				type: "item"
+				item: "refinedstorage:cable"
+				count: 16
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.5d
+			subtitle: "Transmits 16 blocks but can be upgraded"
+			dependencies: ["7B127BB3F0DEF17E"]
+			id: "09704F706F8009C3"
+			tasks: [{
+				id: "2DE67C366D461CA9"
+				type: "item"
+				item: "refinedstorage:wireless_transmitter"
+			}]
+			rewards: [{
+				id: "7DC0D3833D5727CC"
+				type: "item"
+				item: "refinedstorage:range_upgrade"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			subtitle: "Same as a Grid but with a crafting inventory"
+			dependencies: ["02BE40CF22722C7B"]
+			id: "7F93D7B346D12A10"
+			tasks: [{
+				id: "730C3B7B20F2E9A4"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+			rewards: [{
+				id: "15B7D73B079285CF"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 4
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.5d
+			subtitle: "Shows all the current crafting tasks and details about them"
+			dependencies: ["7B127BB3F0DEF17E"]
+			id: "397BD5DE04DD797F"
+			tasks: [{
+				id: "55BBF9A3C0E007BA"
+				type: "item"
+				item: "refinedstorage:crafting_monitor"
+			}]
+			rewards: [
+				{
+					id: "4829BA19D4BDBDF2"
+					type: "item"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+				}
+				{
+					id: "2FA24F817C17D934"
+					type: "item"
+					item: "create:mechanical_crafter"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			subtitle: "Manage who can access your storage network, don't forget your security card"
+			dependencies: ["7B127BB3F0DEF17E"]
+			id: "57F5C308BB8AFE4D"
+			tasks: [{
+				id: "3DECE485C0ACA9A1"
+				type: "item"
+				item: "refinedstorage:security_manager"
+			}]
+			rewards: [
+				{
+					id: "2495402C354D76AE"
+					type: "item"
+					item: "refinedstorage:security_card"
+				}
+				{
+					id: "5EE5389AD7C7957D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			subtitle: "Displays the current amount of a certain item or fluid in your Storage Network"
+			dependencies: ["7B127BB3F0DEF17E"]
+			id: "21E8D99E9136A0B7"
+			tasks: [{
+				id: "245BA2BD024017DA"
+				type: "item"
+				item: "refinedstorage:storage_monitor"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			subtitle: "Exports items or fluids from the Storage Network"
+			dependencies: ["6B6452908E5BD4AC"]
+			id: "201080B1B49AFC6A"
+			tasks: [{
+				id: "597C808B6E6D39E3"
+				type: "item"
+				item: "refinedstorage:exporter"
+			}]
+			rewards: [
+				{
+					id: "1BEA965E125DCEBD"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "397C012DA383BF4A"
+					type: "item"
+					item: "create:andesite_funnel"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			subtitle: "Used to import items or fluids into the Storage Network"
+			dependencies: ["6B6452908E5BD4AC"]
+			id: "65440C856AE5AAA6"
+			tasks: [{
+				id: "52281C2A95597F60"
+				type: "item"
+				item: "refinedstorage:importer"
+			}]
+			rewards: [
+				{
+					id: "6452C2C8CD189546"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "0A4812641F55D123"
+					type: "xp"
+					xp: 30
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			subtitle: "A Grid for on the Go"
+			dependencies: ["02BE40CF22722C7B"]
+			id: "45EC55629B40B7C4"
+			tasks: [{
+				id: "4224E00323B63603"
+				type: "item"
+				item: "refinedstorage:wireless_grid"
+			}]
+			rewards: [
+				{
+					id: "301C5FB80F87E364"
+					type: "item"
+					item: "createaddition:gold_wire"
+					count: 4
+				}
+				{
+					id: "15F40A827BED8096"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			subtitle: "Used in crafting Refined Storage machines"
+			id: "7B127BB3F0DEF17E"
+			tasks: [{
+				id: "4127F10562EB6CB2"
+				type: "item"
+				item: "refinedstorage:machine_casing"
+			}]
+		}
+		{
+			title: "Backpack"
+			icon: "sophisticatedbackpacks:backpack"
+			x: 2.0d
+			y: 0.5d
+			subtitle: "A pack for your back! Set the hotkey to your liking in Controls"
+			id: "405E919F37F0FC14"
+			tasks: [{
+				id: "083D668A48A2818A"
+				type: "item"
+				title: "Any #curios:back"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "curios:back"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "10BC7B335032D127"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "35EA0A39DC4D58F2"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			subtitle: "Even more pack for your back"
+			dependencies: ["405E919F37F0FC14"]
+			id: "0BAAED5F0E02AB6E"
+			tasks: [{
+				id: "78BBA0BD5AF7ED38"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "08446FB9E6694881"
+				type: "item"
+				item: "minecraft:lantern"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			subtitle: "More storage on the Go"
+			dependencies: ["0BAAED5F0E02AB6E"]
+			id: "498AAE3417F54730"
+			tasks: [{
+				id: "6637AB82C0919ADE"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [
+				{
+					id: "41CD26AADEE7CCA1"
+					type: "item"
+					item: "supplementaries:gold_door"
+				}
+				{
+					id: "6A351C33ABDBF6AF"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			subtitle: "For showing off at the local backpack convention"
+			dependencies: ["498AAE3417F54730"]
+			id: "09948F5C8B360908"
+			tasks: [{
+				id: "305492B2126FC758"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [
+				{
+					id: "3210FFE40BC4F7D4"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "21A1187F7F52D288"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			subtitle: "Highest tier backpack!"
+			dependencies: ["09948F5C8B360908"]
+			id: "7ADBA41D08820CF2"
+			tasks: [{
+				id: "6F566626BE2CB393"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [
+				{
+					id: "1DD208D32A8F91BE"
+					type: "item"
+					item: "createdeco:netherite_sheet"
+					count: 2
+				}
+				{
+					id: "3BE820113D7E19CA"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

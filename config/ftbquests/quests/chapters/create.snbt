@@ -1,0 +1,926 @@
+{
+	id: "694AB2680FF20EA7"
+	group: "0FA952FB21E9D48F"
+	order_index: 0
+	filename: "create"
+	title: "The Basics"
+	icon: "create:cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.0d
+			y: -5.0d
+			subtitle: "Found in the Ground, or made with Quartz"
+			description: ["You're going to need a lot of Andesite for Create"]
+			id: "0DEAD40F51649417"
+			tasks: [{
+				id: "7237F975522E0E3E"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+			rewards: [{
+				id: "33EBD0CFAA0CA920"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			subtitle: "Common Create crafting material"
+			description: ["Create has an excellent feature called Ponder, Simply hold 'W' when looking at a Create block or item in your inventory."]
+			dependencies: ["0DEAD40F51649417"]
+			id: "0D7CA630061AEABB"
+			tasks: [{
+				id: "1022AFC93D5631D1"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			subtitle: "Creates rotational energy from water movement"
+			dependencies: ["2B6CDA3D5CB1B104"]
+			id: "5D91F0D9778C3E5A"
+			tasks: [{
+				id: "773C7DFB39997EA6"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [
+				{
+					id: "6CBCD9F49855C02E"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "24B39101532958BA"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			subtitle: "Used to relay rotation. Also used for providing rotation to machines"
+			dependencies: ["0D7CA630061AEABB"]
+			id: "2B6CDA3D5CB1B104"
+			tasks: [
+				{
+					id: "1EE263815B2E1F50"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "595DDFF7A9FE1FBA"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			subtitle: "Creates rotation from Wind. Attach Windmill sails and right click the Windmill bearing to get started"
+			dependencies: ["4861B12A599DD8E5"]
+			id: "5CCD28C6D2CAEEDB"
+			tasks: [{
+				id: "4D47BD1BE282D6F0"
+				type: "item"
+				item: "create:windmill_bearing"
+			}]
+			rewards: [{
+				id: "2D777754EBE8570B"
+				type: "item"
+				item: "create:white_sail"
+				count: 8
+			}]
+		}
+		{
+			title: "Make a max strength Wind Mill"
+			x: -7.0d
+			y: -1.5d
+			subtitle: "Attach 128+ Windmill sails to a Windmill Bearing"
+			dependencies: ["5CCD28C6D2CAEEDB"]
+			id: "012828925DBC966C"
+			tasks: [{
+				id: "1B1886AE7BF7F2B4"
+				type: "advancement"
+				advancement: "create:maxed_windmill"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0BFF8B803219F453"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			subtitle: "Used to grind up many materials"
+			dependencies: ["2B6CDA3D5CB1B104"]
+			id: "1663B92D0C572317"
+			tasks: [{
+				id: "0BAD7B795058BF3B"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "3865F4BDBB897284"
+				type: "item"
+				item: "create:crushed_raw_iron"
+				count: 4
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			subtitle: "Relays rotation in a straight line"
+			dependencies: ["0D7CA630061AEABB"]
+			id: "4861B12A599DD8E5"
+			tasks: [{
+				id: "20E9D20429D61048"
+				type: "item"
+				item: "create:shaft"
+			}]
+			rewards: [{
+				id: "7AF8133925C70AC1"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 4
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Used for making Plates, used in many crafting recipes"
+			dependencies: ["2B6CDA3D5CB1B104"]
+			id: "227441E314FF89EA"
+			tasks: [{
+				id: "0DDC3D019A9EE6BD"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [
+				{
+					id: "63F496E0782031AE"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 2
+				}
+				{
+					id: "4E821BC5A47BAA74"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			subtitle: "Found from Ore in the Twilight"
+			id: "29C627C3D0CB0EC4"
+			tasks: [{
+				id: "6127B18C4069B0D6"
+				type: "item"
+				item: "minecraft:copper_ingot"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			subtitle: "Used for crafting "
+			dependencies: ["29C627C3D0CB0EC4"]
+			id: "5CBEB1A0E1B78A3D"
+			tasks: [{
+				id: "04B2467FE7447C4A"
+				type: "item"
+				item: "create:copper_casing"
+			}]
+			rewards: [{
+				id: "420FA53C6C50A9A5"
+				type: "item"
+				item: "minecraft:iron_bars"
+				count: 16
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			subtitle: "Used for filling containers with fluids"
+			dependencies: ["1B3505F2216C8AA4"]
+			id: "20AEBB3E4364EF59"
+			tasks: [{
+				id: "6493F071472D7AE9"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			subtitle: "Stores fluid, place in a 2x2 or 3x3 pattern and they will link together"
+			dependencies: ["5CBEB1A0E1B78A3D"]
+			id: "1B3505F2216C8AA4"
+			tasks: [{
+				id: "597201316E6E5D10"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+			rewards: [
+				{
+					id: "1C0416E5889437F2"
+					type: "item"
+					item: "create:fluid_tank"
+					count: 2
+				}
+				{
+					id: "1F34EDFDCFA06C79"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			subtitle: "A pipe for fluid, used to transport liquids from A to B"
+			dependencies: [
+				"227441E314FF89EA"
+				"29C627C3D0CB0EC4"
+			]
+			id: "56D5901035BE2C15"
+			tasks: [{
+				id: "116538BA915B7F62"
+				type: "item"
+				item: "create:fluid_pipe"
+			}]
+			rewards: [{
+				id: "2F159AC9F3EB969A"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			subtitle: "Moves fluid in the direction of the arrow when powered"
+			dependencies: [
+				"56D5901035BE2C15"
+				"2B6CDA3D5CB1B104"
+			]
+			id: "338BB93398804B1F"
+			tasks: [{
+				id: "2E422362386B0D06"
+				type: "item"
+				item: "create:mechanical_pump"
+			}]
+			rewards: [
+				{
+					id: "61FDBF0096850AED"
+					type: "item"
+					item: "create:gearbox"
+				}
+				{
+					id: "17C11F1285DFCAA9"
+					type: "item"
+					item: "create:cogwheel"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Used for many things including block rotation and quick breaking"
+			dependencies: ["227441E314FF89EA"]
+			id: "715CCF493FF7572A"
+			tasks: [{
+				id: "1805A47A649C9E26"
+				type: "item"
+				item: "create:wrench"
+			}]
+			rewards: [{
+				id: "26BF367BE1212F57"
+				type: "item"
+				item: "create:andesite_encased_shaft"
+				count: 4
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			subtitle: "Can relay rotation and move items placed on top"
+			dependencies: ["31203C06709BB51B"]
+			id: "07403F064EA8F7CD"
+			tasks: [{
+				id: "5801A1CD951A4439"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "003F5FEDB3A58802"
+				type: "item"
+				item: "create:shaft"
+				count: 4
+			}]
+		}
+		{
+			title: "Shifting Gears"
+			x: -1.0d
+			y: -5.0d
+			subtitle: "Place a small cogwheel diagonally next to a large cogwheel. Can double or half the speed of rotation"
+			dependencies: ["2B6CDA3D5CB1B104"]
+			id: "453BC8BA8D769C3D"
+			tasks: [{
+				id: "450E84EA11EE2849"
+				type: "advancement"
+				advancement: "create:shifting_gears"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6F1A00F40D6FFADC"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 16
+				}
+				{
+					id: "4A007BB5E7957897"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			subtitle: "Polish rose quartz with sandpaper"
+			id: "427842B30972F201"
+			tasks: [{
+				id: "638007B24B363FF9"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+			rewards: [{
+				id: "7A69EDDB8001A7C6"
+				type: "item"
+				item: {
+					id: "create:red_sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			subtitle: "Can see the speed of rotation on the go! Combine with a helmet or put it in your goggles slot"
+			dependencies: ["227441E314FF89EA"]
+			id: "74B478824652051B"
+			tasks: [{
+				id: "2C55DC4FD612EADE"
+				type: "item"
+				item: "create:goggles"
+			}]
+			rewards: [
+				{
+					id: "0024CB8B6FE80907"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "59D2B6E49956D094"
+					type: "xp"
+					xp: 30
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			subtitle: "Can also be used to generate rotational energy with heat"
+			dependencies: ["227441E314FF89EA"]
+			id: "2FC30570F133AA37"
+			tasks: [{
+				id: "5E8D264033FD4C45"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [
+				{
+					id: "1D982CF6A63A6E45"
+					type: "item"
+					item: "minecraft:magma_block"
+				}
+				{
+					id: "056BA73D76676DD5"
+					type: "item"
+					item: "minecraft:lever"
+				}
+			]
+		}
+		{
+			title: "Mechanical Tools"
+			x: -2.5d
+			y: -1.5d
+			subtitle: "Used to interact with the World. Create a tree farm with Mechanical Saws, a quarry with Mechanical Drills and an auto farm with Mechanical Harvesters"
+			dependencies: ["0D7CA630061AEABB"]
+			id: "235E8992A781AED1"
+			tasks: [
+				{
+					id: "6D82F232B9D188AC"
+					type: "item"
+					item: "create:mechanical_drill"
+				}
+				{
+					id: "148F00E06B7DBAAA"
+					type: "item"
+					item: "create:mechanical_saw"
+				}
+				{
+					id: "16F0D359FEBF4066"
+					type: "item"
+					item: "create:mechanical_harvester"
+				}
+			]
+			rewards: [{
+				id: "7CBE53C2979C491D"
+				type: "choice"
+				table_id: 5153218200219243257L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			subtitle: "Controls inputs and outputs with filters"
+			id: "3315EB58ECFEC9E3"
+			tasks: [{
+				id: "54677463CE61C32D"
+				type: "item"
+				item: {
+					id: "create:filter"
+					Count: 1b
+					tag: {
+						Items: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "20A6C89368F9E6BC"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			subtitle: "Used to output and input into inventories"
+			dependencies: ["31203C06709BB51B"]
+			id: "3CB5BA0ED0C3A422"
+			tasks: [{
+				id: "279C04832A7BE983"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			subtitle: "Can send items down from containers, or up when using a Mechanical Fan"
+			dependencies: ["227441E314FF89EA"]
+			id: "47852A693B5CE8A5"
+			tasks: [{
+				id: "6AD03DF63A0C9CB5"
+				type: "item"
+				item: "create:chute"
+			}]
+			rewards: [{
+				id: "3C6560215FC1B612"
+				type: "item"
+				item: "minecraft:chest"
+				count: 4
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			subtitle: "Used for heating mixer recipes"
+			dependencies: ["227441E314FF89EA"]
+			id: "04C147662C9B4A6F"
+			tasks: [{
+				id: "357BAC0FF156DE63"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+			rewards: [
+				{
+					id: "4CC8A4DF0587D39D"
+					type: "item"
+					item: {
+						id: "minecraft:golden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4452010A9B4D2C3B"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			subtitle: "Cram a blaze into an empty blaze burner"
+			dependencies: ["04C147662C9B4A6F"]
+			id: "688E6DCCA4AD57C0"
+			tasks: [{
+				id: "4BA78F60B5B1E54C"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "2C611C4FD41B977F"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 3
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			subtitle: "Can be used to make Trains. Don't forget to use Superglue to stick the blocks together"
+			dependencies: ["0D7CA630061AEABB"]
+			id: "33CA29C748648266"
+			tasks: [{
+				id: "598A3E469EC53542"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+			rewards: [
+				{
+					id: "0B51827B1BA3E418"
+					type: "item"
+					item: "minecraft:minecart"
+				}
+				{
+					id: "7141E1643792C814"
+					type: "item"
+					item: "minecraft:lever"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			subtitle: "Used for connecting two minecarts together"
+			dependencies: ["227441E314FF89EA"]
+			id: "5D939288E374BFDC"
+			tasks: [{
+				id: "5B760F6D861EB382"
+				type: "item"
+				item: "create:minecart_coupling"
+			}]
+			rewards: [
+				{
+					id: "141A405B03DA8DED"
+					type: "item"
+					item: "minecraft:minecart"
+				}
+				{
+					id: "41BF8C7C8F46B9B9"
+					type: "item"
+					item: "minecraft:furnace_minecart"
+				}
+			]
+		}
+		{
+			title: "Meters"
+			x: -5.5d
+			y: -1.5d
+			subtitle: "Shows the current speed and stress of a system"
+			dependencies: ["4861B12A599DD8E5"]
+			id: "685854099BDC6D1C"
+			tasks: [
+				{
+					id: "68831ACD4B45065B"
+					type: "item"
+					item: "create:speedometer"
+				}
+				{
+					id: "3CC62A7CED9F0EDD"
+					type: "item"
+					item: "create:stressometer"
+				}
+			]
+			rewards: [{
+				id: "00CA3DF8C2C31E16"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Sticky stuff. Hold in your offhand to automatically use"
+			dependencies: ["227441E314FF89EA"]
+			id: "043A79BC0EDFB77D"
+			tasks: [{
+				id: "798B7E8B1CD532B7"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "008D86FC664D07D5"
+				type: "item"
+				item: "minecraft:slime_block"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Used for creating a variety of items, foods, potions and shapeless recipes"
+			dependencies: ["227441E314FF89EA"]
+			id: "4C569FC5E920667D"
+			tasks: [{
+				id: "61E85739410CF6FF"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "0EB974344CE781E6"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			subtitle: "Used in a large range of crafting types from Mixing to Compacting and more!"
+			dependencies: ["0D7CA630061AEABB"]
+			id: "3573A5A641D066A7"
+			tasks: [{
+				id: "4A32968BB1CE9633"
+				type: "item"
+				item: "create:basin"
+			}]
+			rewards: [
+				{
+					id: "44F0D479C79486C5"
+					type: "item"
+					item: "create:basin"
+				}
+				{
+					id: "0B9FD807C2917594"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			subtitle: "Dry some Kelp in a furnace"
+			id: "31203C06709BB51B"
+			tasks: [{
+				id: "5E0FD043D48B9A87"
+				type: "item"
+				item: "minecraft:dried_kelp"
+			}]
+			rewards: [{
+				id: "2605DBA6FEDE37A3"
+				type: "item"
+				item: "minecraft:dried_kelp_block"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			subtitle: "Transfers fluids between moving contraptions and stationary interfaces"
+			dependencies: [
+				"3CB5BA0ED0C3A422"
+				"5CBEB1A0E1B78A3D"
+			]
+			id: "10102144BFB6BD89"
+			tasks: [{
+				id: "2913BF20167CA252"
+				type: "item"
+				item: "create:portable_fluid_interface"
+			}]
+			rewards: [{
+				id: "75B9BD1CC59BEBAF"
+				type: "item"
+				item: "create:fluid_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.5d
+			subtitle: "Placed like a Painting and can be used to quickly craft items"
+			id: "3855D4494C6C909B"
+			tasks: [{
+				id: "11D8906FA6F8805D"
+				type: "item"
+				item: "create:crafting_blueprint"
+			}]
+			rewards: [
+				{
+					id: "7E408F39678AD6A4"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 2
+				}
+				{
+					id: "23DE7A7B5DBBF1C5"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			subtitle: "Wireless redstone. Set the key to the same combination to transmit redstone signals"
+			id: "51F369B788650EF3"
+			tasks: [{
+				id: "20985BEF9015840F"
+				type: "item"
+				item: "create:redstone_link"
+			}]
+			rewards: [{
+				id: "1D14D902DA640AAE"
+				type: "item"
+				item: "create:cuckoo_clock"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -6.5d
+			subtitle: "Can be used to control many different links from your own hands"
+			dependencies: ["51F369B788650EF3"]
+			id: "16A7AFD245654968"
+			tasks: [{
+				id: "1D49878312B3BA78"
+				type: "item"
+				item: "create:linked_controller"
+			}]
+			rewards: [{
+				id: "7D26104CA6371789"
+				type: "item"
+				item: "create:rope_pulley"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			subtitle: "Used for the Potato Cannon and Diving Equipment"
+			dependencies: ["29C627C3D0CB0EC4"]
+			id: "606B7A776FDF3C9F"
+			tasks: [{
+				id: "0D0335F1B590A01E"
+				type: "item"
+				item: {
+					id: "create:copper_backtank"
+					Count: 1b
+					tag: {
+						Air: 900
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2C3F6232EE20C829"
+					type: "item"
+					item: "create:shaft"
+					count: 3
+				}
+				{
+					id: "3ACC83573858BEBE"
+					type: "item"
+					item: "create:vertical_gearbox"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			subtitle: "Requires the Copper Backtank for air!"
+			dependencies: ["29C627C3D0CB0EC4"]
+			id: "13011595D1C93FC4"
+			tasks: [
+				{
+					id: "48483C94F62795BF"
+					type: "item"
+					item: {
+						id: "create:copper_diving_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71AAAA75E818FA6A"
+					type: "item"
+					item: {
+						id: "create:copper_diving_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			subtitle: "Drains fluids from buckets and bottles"
+			dependencies: ["5CBEB1A0E1B78A3D"]
+			id: "14F6D502822E3F09"
+			tasks: [{
+				id: "5BDEDD00FE77FF98"
+				type: "item"
+				item: "create:item_drain"
+			}]
+			rewards: [
+				{
+					id: "0450B8BEC607AA8A"
+					type: "item"
+					item: "minecraft:milk_bucket"
+				}
+				{
+					id: "78919EE00362D1B3"
+					type: "xp"
+					xp: 30
+				}
+			]
+		}
+		{
+			title: "Toolbox"
+			x: -7.0d
+			y: -3.5d
+			subtitle: "Create a Create Toolbox"
+			id: "1A119B9695E42E2B"
+			tasks: [{
+				id: "4E64988451E2F37C"
+				type: "item"
+				title: "Any #create:toolboxes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "create:toolboxes"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "05C20138EA1852F4"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 256
+				}
+				{
+					id: "3411D45192C6E93B"
+					type: "item"
+					item: "minecraft:stone"
+					count: 256
+				}
+				{
+					id: "63FA8AFA14F33910"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

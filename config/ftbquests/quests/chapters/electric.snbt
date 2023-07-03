@@ -1,0 +1,195 @@
+{
+	id: "53E354C4DFE8BCA1"
+	group: "0FA952FB21E9D48F"
+	order_index: 2
+	filename: "electric"
+	title: "Electric"
+	icon: "createaddition:gold_spool"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: 2.0d
+			subtitle: "Creates rods and wires"
+			id: "63D6B739D8CF2D64"
+			tasks: [{
+				id: "70BEBC45B0CAC297"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+			rewards: [{
+				id: "0FE885CD79BF88A6"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			subtitle: "Used for crafting electrical equipment"
+			id: "5AF03BAE19DF3C6B"
+			tasks: [{
+				id: "7E98763B47F49B7A"
+				type: "item"
+				item: "createaddition:capacitor"
+			}]
+			rewards: [{
+				id: "5DF2F2B9F8E5B3BB"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			subtitle: "Generates RF from rotational energy"
+			dependencies: ["61C93BBA952DD091"]
+			id: "385EBD9D5E1369AB"
+			tasks: [{
+				id: "733E019BCB3236EA"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [{
+				id: "64CC2F4E1AFE944A"
+				type: "item"
+				item: "create:rotation_speed_controller"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			subtitle: "Transfers energy from one machine to another with wires"
+			dependencies: ["63D6B739D8CF2D64"]
+			id: "40287B17747CD6E2"
+			tasks: [{
+				id: "794015FED4E116C8"
+				type: "item"
+				item: "createaddition:connector"
+			}]
+			rewards: [{
+				id: "426ADE484CACEE7F"
+				type: "item"
+				item: "createaddition:copper_wire"
+				count: 2
+			}]
+		}
+		{
+			title: "Wire Spools"
+			x: 2.0d
+			y: 0.5d
+			subtitle: "Used to transfer energy from two connectors"
+			dependencies: ["63D6B739D8CF2D64"]
+			id: "61C93BBA952DD091"
+			tasks: [
+				{
+					id: "5E467E054C91D73A"
+					type: "item"
+					item: "createaddition:copper_spool"
+				}
+				{
+					id: "09D9E79C63D863CC"
+					type: "item"
+					item: "createaddition:gold_spool"
+				}
+			]
+			rewards: [{
+				id: "0DABAD2AC60D32D7"
+				type: "item"
+				item: "createaddition:connector"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			subtitle: "Generates rotational energy from RF"
+			dependencies: [
+				"61C93BBA952DD091"
+				"5AF03BAE19DF3C6B"
+			]
+			id: "33DF787AFB5AE4FA"
+			tasks: [{
+				id: "4B297ED754C7E9D9"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [
+				{
+					id: "233DCD6F8D6540E8"
+					type: "item"
+					item: "create:gearbox"
+				}
+				{
+					id: "71BDB5FC06194C96"
+					type: "item"
+					item: "create:shaft"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			subtitle: "Heats a furnace turning it into an electrical furnace"
+			dependencies: ["61C93BBA952DD091"]
+			id: "63ECF5E480261C0B"
+			tasks: [{
+				id: "087512B1D7B69AB7"
+				type: "item"
+				item: "createaddition:portable_energy_interface"
+			}]
+			rewards: [
+				{
+					id: "3D5CCDA5FBD6759F"
+					type: "item"
+					item: "createaddition:copper_spool"
+				}
+				{
+					id: "679DAFB768D1100A"
+					type: "item"
+					item: "createaddition:connector"
+				}
+				{
+					id: "0B2E8BF19F0DBC39"
+					type: "item"
+					item: "minecraft:blast_furnace"
+				}
+			]
+		}
+		{
+			title: "Create Chunk Loader"
+			x: 2.0d
+			y: -4.0d
+			subtitle: "Used to load chunks on moving contraptions"
+			id: "77F270D2419A7E6B"
+			tasks: [{
+				id: "7618EFEA8C694A5A"
+				type: "item"
+				item: "createchunkloading:chunk_loader"
+			}]
+			rewards: [
+				{
+					id: "55AB2DC9DF747C72"
+					type: "item"
+					item: {
+						id: "create:super_glue"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "56E0AC4CEC7CB530"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

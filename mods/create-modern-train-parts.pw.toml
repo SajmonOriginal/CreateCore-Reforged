@@ -1,13 +1,13 @@
 name = "Create: Modern Train Parts"
-filename = "moderntrainparts-0.12.jar"
+filename = "moderntrainparts-mc1.18.2-0.2.1-forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9ca6307b150f5ba1ee0ba40f5777d15da5fd73d4"
+hash = "d3dc80a3aa8823a2af06fbd6f16f010d7b59fc2b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4428921
+file-id = 4591788
 project-id = 834415

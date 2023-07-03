@@ -1,13 +1,13 @@
 name = "No Time Out No More"
-filename = "NoTimeOutNoMore-(0R)_1.18.x.jar"
+filename = "NoTimeOutNoMore-(1R)_1.18.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f4077216b7a2c3a7eeada070ad70568494e2585e"
+hash = "ce167b183d939037101cd4ac52a27d6d4eeeb5f4"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4021980
+file-id = 4606917
 project-id = 686960

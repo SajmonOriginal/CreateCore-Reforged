@@ -1,0 +1,11 @@
+{
+	id: "4783E8A6722552F9"
+	order_index: 0
+	title: "Create"
+	loot_size: 1
+	rewards: [
+		{ item: "create:mechanical_drill", count: 3 }
+		{ item: "create:mechanical_saw", count: 3 }
+		{ item: "create:mechanical_harvester", count: 3 }
+	]
+}

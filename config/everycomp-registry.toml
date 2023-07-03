@@ -169,9 +169,6 @@
 		azalea = true
 		blossom = true
 
-	[wood_type.valhelsia_structures]
-		lapidified_jungle = true
-
 	[wood_type.italian_delight]
 		olive = true
 
